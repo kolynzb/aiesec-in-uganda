@@ -6,16 +6,20 @@ import HeroBannerSix from "./components/hero-banners/hero-banner-six";
 import FancyBannerSix from "./components/fancy-banner/fancy-banner-6";
 import FooterOne from "@/layouts/footers/footer-one";
 import FeatureThree from "./components/features/feature-three";
+import HeaderFive from "@/layouts/headers/header-5";
 
 export default function Home() {
   return (
     <Wrapper>
+      {/* header start */}
+      <HeaderFive />
+      {/* header end */}
       {/* hero banner start */}
       <HeroBannerSix />
       {/* hero banner end */}
-   {/* feature three start */}
-   <FeatureThree />
-        {/* feature three end */}
+      {/* feature three start */}
+      <FeatureThree />
+      {/* feature three end */}
       {/* blog two start */}
       <BlogTwo />
       {/* blog two end */}
@@ -23,13 +27,13 @@ export default function Home() {
       <FeatureSix />
       {/* feature six end */}
 
-             {/* fancy banner start */}
-             <FancyBannerSix />
-        {/* fancy banner end */}
+      {/* fancy banner start */}
+      <FancyBannerSix />
+      {/* fancy banner end */}
 
-        {/* footer start */}
-        <FooterOne style_2={true} />
-        {/* footer end */}
+      {/* footer start */}
+      <FooterOne style_2={true} />
+      {/* footer end */}
     </Wrapper>
   );
 }
