@@ -7,6 +7,8 @@ import FancyBannerSix from "./components/fancy-banner/fancy-banner-6";
 import FooterOne from "@/layouts/footers/footer-one";
 import FeatureThree from "./components/features/feature-three";
 import HeaderFive from "@/layouts/headers/header-5";
+import FeedbackThree from "./components/feedBacks/feedback-three";
+import TopCompany from "./components/top-company/top-company";
 
 export default function Home() {
   return (
@@ -20,6 +22,19 @@ export default function Home() {
       {/* feature three start */}
       <FeatureThree />
       {/* feature three end */}
+
+        {/* how it works start */}
+        <HowItWorksTwo />
+        {/* how it works end */}
+
+         {/* feedback three start */}
+         <FeedbackThree />
+        {/* feedback three end */}
+
+            {/* top company start */}
+            <TopCompany />
+        {/* top company end */}
+
       {/* blog two start */}
       <BlogTwo />
       {/* blog two end */}

@@ -15,8 +15,11 @@ const HeroBannerSix = () => {
   }
   return (
     <div className="hero-banner-six position-relative pt-170 lg-pt-150 pb-60 lg-pb-40">
-      <div className="container">
-        <div className="position-relative">
+     
+           <div className="container">
+   
+         <div className="position-relative">
+          
           <div className="row">
             <div className="col-xxl-8 col-xl-9 col-lg-8 m-auto text-center">
               <h1 className="wow fadeInUp" data-wow-delay="0.3s">Find & Hire Experts for any Job.</h1>
@@ -50,24 +53,27 @@ const HeroBannerSix = () => {
               </div>
             </div>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col-xl-8 m-auto">
                 <div className="row">
                   <CounterOne style_2={true}/>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
+
+
       <div id="banner-six-carousel" className="carousel slide pointer-event" data-bs-ride="carousel">
         <div className="carousel-inner w-100 h-100">
-          <div className="carousel-item active" style={{ backgroundImage: `url(${banner_1.src})` }}>
+          <div className="carousel-item active" style={{ backgroundImage: `url("https://res.cloudinary.com/dhwh1oqno/image/upload/v1729327784/6ab94d76-f5d5-45b3-aac1-c7c0eb358dd4_tkxofe.jpg")` }}>
           </div>
-          <div className="carousel-item" style={{ backgroundImage: `url(${banner_2.src})` }}>
+          <div className="carousel-item" style={{ backgroundImage: `url("https://res.cloudinary.com/dhwh1oqno/image/upload/t_Banner 16:9/v1729327679/1_i4uhfo.jpg")` }}>
           </div>
         </div>
       </div>
+       <div className="position-absolute overlay"/>
     </div>
   );
 };
