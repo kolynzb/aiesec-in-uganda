@@ -7,7 +7,7 @@ import JobCategorySelect from '../select/job-category';
 import CounterOne from '../counter/counter-one';
 
 
-const HeroBannerSix = () => {
+const devHeroBannerSix = () => {
   const { handleSubmit, setCategoryVal,setSearchText } = useSearchFormSubmit();
   // handleSearchInput
   const handleSearchInput = (e:React.ChangeEvent<HTMLInputElement>) => {
@@ -62,7 +62,7 @@ const HeroBannerSix = () => {
       </div>
       <div id="banner-six-carousel" className="carousel slide pointer-event" data-bs-ride="carousel">
         <div className="carousel-inner w-100 h-100">
-          <div className="carousel-item active" style={{ backgroundImage: `url(${banner_1.src})` }}>
+          <div className="carousel-item active" style={{ backgroundImage: `url("https://res.cloudinary.com/dhwh1oqno/image/upload/v1729327784/6ab94d76-f5d5-45b3-aac1-c7c0eb358dd4_tkxofe.jpg")` }}>
           </div>
           <div className="carousel-item" style={{ backgroundImage: `url(${banner_2.src})` }}>
           </div>
