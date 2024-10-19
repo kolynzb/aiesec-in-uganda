@@ -20,6 +20,10 @@ export default function Home() {
       {/* feature three start */}
       <FeatureThree />
       {/* feature three end */}
+
+        {/* how it works start */}
+        <HowItWorksTwo />
+        {/* how it works end */}
       {/* blog two start */}
       <BlogTwo />
       {/* blog two end */}
