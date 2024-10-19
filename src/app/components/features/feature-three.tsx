@@ -22,9 +22,9 @@ const FeatureThree = () => {
 						<div className="col-lg-5 order-lg-last">
 							<div className="ps-lg-4 wow fadeInRight">
 								<div className="title-one">
-									<h2 className="fw-600">Get the job <br /> of your dreams quickly.</h2>
+									<h2 className="fw-600">Who <br /> We Are ?</h2>
 								</div>
-								<p className="mt-40 md-mt-20 mb-40 md-mb-20 text-md">AInciddnt ut labore et dolor magna aliu. enim ad mim venam, quis nostru</p>
+								<p className="mt-40 md-mt-20 mb-40 md-mb-20 text-md">We are a <span className="" style={{color:"#037EF2"}}> global youth-led organization striving to achieve peace and fulfillment of humankind’s potential</span> by activating leadership qualities in youth through learning from practical experiences in challenging environments.</p>
 								<ul className="list-style-one style-none">
 									<li>Seamless searching</li>
 									<li>Protected payments, every time</li>
@@ -37,11 +37,11 @@ const FeatureThree = () => {
 							<div className="img-data position-relative me-xl-5 md-mt-20">
 								<div className="row align-items-center gx-xl-5">
 									<div className="col-6">
-										<Image src={img_1} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInLeft img" />
+										<Image src={"https://res.cloudinary.com/dhwh1oqno/image/upload/v1729327779/e774d5a8-25e3-425a-ae05-7e3bc7d269aa_fthdfb.jpg"} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInLeft img" width={320} height={460}/>
 									</div>
 									<div className="col-6">
-										<Image src={img_2} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInDown img" />
-										<Image src={img_3} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInUp img" />
+										<Image src={"https://res.cloudinary.com/dhwh1oqno/image/upload/v1729328415/photo_2024-08-17_18-41-45_tfj2mu.jpg"} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInDown img" width={316} height={383} />
+										<Image src={"https://res.cloudinary.com/dhwh1oqno/image/upload/v1729327779/3d168487-4212-483c-a03b-f284b1ef4bdc_qsqyp5.jpg"} alt="image" className="lazy-img mt-35 md-mt-20 wow fadeInUp img"  width={200} height={219}  />
 									</div>
 								</div>
 								<Image src={shape_1} alt="shape" className="lazy-img shapes shape_02" />

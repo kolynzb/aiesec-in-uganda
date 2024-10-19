@@ -22,7 +22,7 @@ const HeaderFive = () => {
 						</div>
 						<div className="right-widget ms-auto ms-lg-0 order-lg-2">
 							<ul className="d-flex align-items-center style-none">
-								<li><a href="#" className="fw-500 text-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+								{/* <li><a href="#" className="fw-500 text-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li> */}
 								<li className="d-none d-md-block ms-4"><Link href='/register' className="btn-five">Register</Link></li>
 							</ul>
 						</div>
