@@ -17,7 +17,7 @@ const HeaderFive = () => {
 					<div className="d-flex align-items-center">
 						<div className="logo order-lg-0">
 							<Link href="/" className="d-flex align-items-center">
-								<Image src={logo} alt="logo"/>
+								<Image src={"https://res.cloudinary.com/dhwh1oqno/image/upload/v1729334017/Blue-Logo_1_yk0qih.png"}  className="object-fit-contain"  alt="logo" width={200} height={100}/>
 							</Link>
 						</div>
 						<div className="right-widget ms-auto ms-lg-0 order-lg-2">
@@ -37,7 +37,7 @@ const HeaderFive = () => {
 								<ul className="navbar-nav">
 									<li className="d-block d-lg-none"><div className="logo">
                     <Link href="/" className="d-block">
-                      <Image src={logo} alt="logo" width="100"/>
+                      <Image src={"https://res.cloudinary.com/dhwh1oqno/image/upload/v1729334017/Blue-Logo_1_yk0qih.png"}  className="object-fit-contain" alt="logo" width={200} height={100}/>
                     </Link>
                     </div>
                   </li>
