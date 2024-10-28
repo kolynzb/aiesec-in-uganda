@@ -25,11 +25,11 @@ const FeatureThree = () => {
 									<h2 className="fw-600">Who <br /> We Are ?</h2>
 								</div>
 								<p className="mt-40 md-mt-20 mb-40 md-mb-20 text-md">We are a <span className="" style={{color:"#037EF2"}}> global youth-led organization striving to achieve peace and fulfillment of humankind’s potential</span> by activating leadership qualities in youth through learning from practical experiences in challenging environments.</p>
-								<ul className="list-style-one style-none">
+								{/* <ul className="list-style-one style-none">
 									<li>Seamless searching</li>
 									<li>Protected payments, every time</li>
 									<li>Wide rang of job categories</li>
-								</ul>
+								</ul> */}
 								<Link href="/about-us" className="btn-five border6 mt-70 md-mt-30">Learn More</Link>
 							</div>
 						</div>

@@ -10,13 +10,13 @@ const counter_data: {
 }[] = [
   {
     id: 1,
-    number: 7,
-    title: "million",
-    subtitle: "Completed Jobs",
+    number: 30,
+    title: "k+",
+    subtitle: "Exchanges",
   },
   {
     id: 2,
-    number: 30,
+    number: 120,
     title: "k+",
     subtitle: "Worldwide Client",
   },
