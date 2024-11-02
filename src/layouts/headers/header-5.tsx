@@ -44,7 +44,7 @@ const HeaderFive = () => {
 									{/* menus start */}
 									 <Menus />
                   {/* menus end */}
-									<li className="d-md-none mt-5"><Link href="/register" className="btn-five w-100">Register</Link></li>
+									<li className="d-md-none mt-5"><Link href="https://aiesec.org/" className="btn-five w-100">Join Us</Link></li>
 								</ul>
 							</div>
 						</nav>
